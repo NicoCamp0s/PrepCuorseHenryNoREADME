@@ -1,3 +1,27 @@
 Nicolas Campos
-
+s
 hola mundo
+
+
+//comandos del .git
+git init //para inicializar el repositorio
+ls -a //el seguimiento y recorrido
+git status //
+git add //agrega el archivo al commit
+git add . //para agregar varios archivos a la vez en el commit
+git commit -m//agrega un mensaje al commit de las cosas que tiene o de las que puede llegar a contener
+git log //para verificar cuantos tenemos en el repositorio local
+git push origin main //para subir nuestro codigo
+git branch -m main //modifica el nombre de la rama de trabajo actual
+git remove add origin //conexion remota desde nuestro repositorio local a la nube
+git push -u origin main //sincronizacion del local con la nube de github
+
+
+si ya tenemos un repositorio existente podemos utilizar
+git remote add origin //
+git branch -m main //
+git push -u origin main//
+
+commit //captura instantanea de los cambios preparados en ese momento del proyecto-
+Guarda una "foto" del estado de los archivos y carpetas del repositorio-
+local, al momento de "ser tomada".
